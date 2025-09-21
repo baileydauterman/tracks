@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Creative Vintage Bold";
+    src: url(../assets/creative-vintage/CreativeVintageRegular\ BP.otf);
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to top, #000000, #1f1f1f);
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Creative Vintage Bold';
+    text-align: center;
+    color: lightgray;
+}
+
+.iframe-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* 2 columns */
+  gap: 20px;                             /* space between iframes */
+  padding: 20px;
+}
+
+.iframe-grid iframe {
+  width: 100%;       /* iframe fills the grid cell */
+  height: 352px;     /* fixed height (or adjust as needed) */
+  border: none;      /* remove default border */
+  border-radius: 12px; /* optional styling */
+}
