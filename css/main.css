@@ -8,14 +8,17 @@ html, body {
 }
 
 body {
-    background: linear-gradient(to top, #000000, #1f1f1f);
+    background: linear-gradient(to top, #000000, #ffffff);
     background-attachment: fixed;
 }
 
 h1 {
     font-family: 'Creative Vintage Bold';
     text-align: center;
-    color: lightgray;
+    color: black;
+    padding: 0px;
+    margin: 0;
+    font-size: 72px;
 }
 
 .iframe-grid {
